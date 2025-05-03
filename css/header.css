@@ -40,16 +40,22 @@ del {
   width: 100%;
   align-items: center;
 }
-.location svg {
+.location a svg {
   width: 15px;
   height: 15px;
   color: #b3b3b3;
+  transition: all 0.3s ease;
 }
 .location a span {
   font-weight: 400;
   font-size: 12px;
   line-height: 130%;
   color: #b3b3b3;
+  transition: all 0.3s ease;
+}
+.location a svg:hover,
+.location a span:hover {
+  color: #fff;
 }
 .lang-and-btns {
   display: flex;
