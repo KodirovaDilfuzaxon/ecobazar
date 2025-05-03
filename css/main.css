@@ -1,0 +1,72 @@
+.all-categories {
+  background: #f2f2f2;
+  }
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.categories {
+  background: #00b207;
+  border: none;
+  padding: 17px 17px;
+}
+.categories svg {
+  width: 18px;
+  height: 14px;
+  color: #fff;
+}
+.categories select {
+  border: none;
+  font-family: "Poppins";
+  background: transparent;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.menu-links .type select {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  background: transparent;
+  padding: 4px;
+  border: none;
+  color: #808080;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+.menu-links .type select:hover {
+  color: #00b207;
+}
+.menu .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone svg {
+  width: 20px;
+  height: 20px;
+}
+.phone a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #1a1a1a;
+}

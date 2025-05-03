@@ -1,0 +1,67 @@
+.slider {
+  padding-bottom: 100px;
+}
+.slider-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 68px;
+  padding-bottom: 68px;
+  gap: 40px;
+}
+
+.slider-content strong {
+  font-family: Segoe Script;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 2%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #20b526;
+}
+.slider-content h1 {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 120%;
+  color: #002603;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+.slider-content p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #618062;
+}
+.slider-content button {
+  margin-top: 32px;
+  background: #00b207;
+  padding: 16px 40px;
+  color: #ffffff;
+  border-radius: 43px;
+  font-family: "Poppins";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border: 1px solid #00b207;
+  transition: all 0.3s ease;
+}
+.slider-content del {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+}
+.slider-content button:hover {
+  color: #00b207;
+  background: #fff;
+}
+.slider-image {
+  position: relative;
+}
+.slider-image .discount {
+  position: absolute;
+  top: 25%;
+  right: 5%;
+}

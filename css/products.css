@@ -1,0 +1,266 @@
+.our-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #edf2ee;
+  width: 100%;
+  padding: 150px;
+}
+
+.product-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 50px;
+}
+.product-menu h2 {
+  color: #002e03;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+}
+.product-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-link a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #808080;
+  padding: 0 23px 8px 23px;
+  border-right: 1px solid #b4ccb4;
+  transition: all 0.3s ease;
+}
+.product-link a:hover {
+  color: #00b207;
+}
+
+.product-info {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: max-content;
+  border: 1px solid #dae5da;
+}
+.info {
+  background: #fff;
+}
+.info img {
+  padding: 5px 5px;
+}
+.info-content {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 16px 20px 20px 20px;
+}
+.info-content h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2b572e;
+}
+.price strong {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #2b572e;
+  margin-top: 2px;
+  margin-bottom: 11px;
+}
+
+.price del {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: line-through;
+  color: #999999;
+}
+.stars {
+  display: flex;
+  justify-content: center;
+  text-align: start;
+  align-items: start;
+  gap: 8px;
+}
+.stars i {
+  color: #ff8a00;
+  width: 14px;
+  height: 14px;
+  padding: 1.7px 1.7px;
+}
+
+.hover-position {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transition: all 0.3s ease-out;
+  opacity: 0;
+  border: 1px solid #2c742f;
+  /* background: red; */
+}
+.hover-position:hover {
+  /* visibility:visible; */
+  opacity: 1;
+  box-shadow: 0px 0px 12px 0px #20b52652;
+}
+.hover-position a svg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #f2f2f2;
+  color: #002603;
+  transition: all 0.35s ease;
+}
+.button-position {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  padding: 3px 8px;
+  color: #fff;
+  background: #ea4b48;
+  border-radius: 4px;
+  font-family: "Poppins";
+  border: none;
+  cursor: pointer;
+}
+.heart {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+.shopping-bags svg {
+  position: absolute;
+  top: 80%;
+  right: 5%;
+  width: 40px;
+  hyphens: 40px;
+  fill: #fff;
+  border-radius: 50%;
+  color: #00b207;
+}
+
+.eye {
+  position: absolute;
+  top: 18%;
+  right: 5%;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.bannar {
+  padding: 100px;
+}
+.bannars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+}
+.bannar-info {
+  padding: 46px 217px 46px 26px;
+  border-radius: 8px;
+  background-image: url(../images/png/cow-milk.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: grabbing;
+  transition: all 0.3s ease;
+}
+.bannar-info:hover {
+  box-shadow: linear-gradient(
+    114.4deg,
+    rgba(0, 0, 0, 0.25) 8.91%,
+    rgba(0, 0, 0, 0) 80.44%
+  );
+}
+.bannar-info h4 {
+  max-width: 183px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: justify;
+  color: #fff;
+}
+.bannar-info p {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: justify;
+  color: #fff;
+}
+.bannar-info p span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #fff;
+  text-align: justify;
+}
+.bannar-info .btn-bannar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #00b207;
+  padding: 14px 32px;
+  gap: 12px;
+  border-radius: 43px;
+}
+.bannar-info i {
+  color: #00b207;
+}
+.bannar-info .btn-bannar strong {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: justify;
+  color: #00b207;
+}
+.second {
+  padding: 44px 26px 44px 226px;
+  background-image: url(../images/png/water-soft-drink.png);
+}
+.second p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+  color: #002603;
+}
+.second h4 {
+  color: #002603;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+.three {
+  padding: 42px 203.9px 42px 32px;
+  background-image: url(../images/png/brackfast.png);
+  background-size: cover;
+}
+.three p {
+  color: #002603;
+}
+.three h4 {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  color: #002603;
+}

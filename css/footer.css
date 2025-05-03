@@ -1,0 +1,140 @@
+footer {
+  position: relative;
+  background: #002603;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+}
+.footer-bar {
+  padding: 100px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 70px;
+}
+.about-shopery {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  gap: 16px;
+}
+.about-shopery h6 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.about-shopery p {
+  max-width: 300px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #618062;
+}
+.about-contact a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.about-contact a span {
+  color: #618062;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.my-account {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
+.my-account h6 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 12px;
+}
+.footer-list-item a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #7a997c;
+  transition: all 0.3s ease;
+}
+.footer-list-item a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+.grid {
+  display: grid;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.socials-and-payments {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 34px;
+  box-shadow: 0px -1px 0px 0px #1b421d;
+  border-top: 1px solid #1b421d;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.socials li a {
+  color: #96b297;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.socials li a:hover {
+  color: #fff;
+  background: #20b526;
+}
+.shopery-ecom {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #618062;
+  transition: all 0.3s ease;
+}
+.shopery-ecom:hover {
+  color: #fff;
+}
+.payment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.footer-position-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.footer-position-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
