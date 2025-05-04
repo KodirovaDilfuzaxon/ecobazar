@@ -4,15 +4,15 @@
   z-index: 999;
 }
 .latest-news-card-and-content {
-  /* display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; */
+  flex-direction: column;
 }
 .latest-news-card-and-content h3 {
   font-weight: 600;
   font-size: 24px;
-  line-height: 120%;
+
   text-align: center;
   color: #002603;
   margin-bottom: 50px;
@@ -63,7 +63,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  padding: 6px 6px;
+  padding: 14px 14px;
   box-shadow: 0px 10px 80px 0px #0000001a;
   background: #ffffff;
 }
