@@ -1,7 +1,8 @@
 .latest-news {
+  margin: 0 auto;
+  max-width: 1100px;
   padding-top: 100px;
   margin-bottom: -250px;
-  z-index: 999;
 }
 .latest-news-card-and-content {
   display: flex;
