@@ -102,11 +102,11 @@
   color: #00b207;
 }
 .blog-card a i {
-  color: #00b207;
+  color: #011c02;
 }
 .data {
   position: absolute;
-  left: 15%;
+  left: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
