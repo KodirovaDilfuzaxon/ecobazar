@@ -23,7 +23,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/main.css" />
+
     <link rel="stylesheet" href="./css/slider.css" />
     <link rel="stylesheet" href="./css/features.css" />
     <link rel="stylesheet" href="./css/products.css" />
@@ -31,63 +31,64 @@
     <link rel="stylesheet" href="./css/clients.css" />
     <link rel="stylesheet" href="./css/organikfarm.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/bannars.css" />
   </head>
   <body>
     <div id="app">
-      <section class="upper-part">
-        <div class="container">
-          <div class="location-and-links">
-            <div class="location">
-              <a href="https://yandex.uz/maps/-/CHrQR47G">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1"
-                  stroke="currentColor"
-                  class="size"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                  />
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
-                  />
-                </svg>
-                <span
-                  >Store Location: Lincoln- 344, Illinois, Chicago, USA</span
-                >
-              </a>
-            </div>
-
-            <div class="lang-and-btns">
-              <div class="lang">
-                <select name="lang" id="">
-                  <option value="1">Eng</option>
-                  <option value="2">Uz</option>
-                  <option value="3">Ru</option>
-                </select>
-                <select name="currency" id="">
-                  <option value="1">USD</option>
-                  <option value="2">Yu</option>
-                  <option value="3">Rubl</option>
-                </select>
+      <header>
+        <section class="upper-part">
+          <div class="container">
+            <div class="location-and-links">
+              <div class="location">
+                <a href="https://yandex.uz/maps/-/CHrQR47G">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1"
+                    stroke="currentColor"
+                    class="size"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                    />
+                  </svg>
+                  <span
+                    >Store Location: Lincoln- 344, Illinois, Chicago, USA</span
+                  >
+                </a>
               </div>
-              <div class="btns">
-                <button class="btn">Sign In</button>
-                <span>/</span>
-                <button class="btn">Sign Up</button>
+
+              <div class="lang-and-btns">
+                <div class="lang">
+                  <select name="lang" id="">
+                    <option value="1">Eng</option>
+                    <option value="2">Uz</option>
+                    <option value="3">Ru</option>
+                  </select>
+                  <select name="currency" id="">
+                    <option value="1">USD</option>
+                    <option value="2">Yu</option>
+                    <option value="3">Rubl</option>
+                  </select>
+                </div>
+                <div class="btns">
+                  <button class="btn">Sign In</button>
+                  <span>/</span>
+                  <button class="btn">Sign Up</button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <header>
         <div class="container">
           <div class="logo-panel">
             <a href="./index.html"
@@ -144,35 +145,18 @@
             </div>
           </div>
         </div>
-      </header>
 
-      <main>
         <section class="all-categories">
           <div class="container">
             <div class="menu">
               <ul class="menu-links">
-                <li class="categories">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="size"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                    />
-                  </svg>
-                  <select>
+                <li class="head-categories">
+                  <i class="fa-solid fa-bars"></i>
+                  <select class="head">
                     <option value="1">All categories</option>
-                    <option value="1">products</option>
-                    <option value="1">price</option>
                   </select>
                 </li>
-                <li class="type">
+                <li>
                   <select>
                     <option value="1">Home</option>
                   </select>
@@ -182,53 +166,40 @@
                     <option value="1">Shop</option>
                   </select>
                 </li>
-                <li class="type">
+                <li>
                   <select>
                     <option value="1">Pages</option>
                   </select>
                 </li>
-                <li class="type">
+                <li>
                   <select>
                     <option value="1">Blog</option>
                   </select>
                 </li>
-                <li class="type">
+                <li>
                   <select>
                     <option value="1">About Us</option>
                   </select>
                 </li>
-                <li class="type">
+                <li>
                   <select>
                     <option value="1">Contact Us</option>
                   </select>
                 </li>
               </ul>
 
-              <ul class="contact">
-                <li class="phone">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="size"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M20.25 3.75v4.5m0-4.5h-4.5m4.5 0-6 6m3 12c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z"
-                    />
-                  </svg>
-                </li>
-                <li class="phone">
+              <ul>
+                <li class="contact">
+                  <i class="fa-solid fa-phone-volume"></i>
                   <a href="tel:(219) 555-0114">(219) 555-0114</a>
                 </li>
               </ul>
             </div>
           </div>
         </section>
+      </header>
 
+      <main>
         <section class="slider">
           <div class="container">
             <div class="slider-info">
@@ -240,8 +211,8 @@
                 <strong>Welcome to shopery</strong>
                 <h1>Fresh & Healthy Organic Food</h1>
                 <p>Free shipping on all your order. we deliver, you enjoy</p>
-                <button>
-                  <del class="btn-now">Shop now </del>
+                <button class="btn-primary">
+                  Shop now
                   <i class="fa-solid fa-arrow-right"></i>
                 </button>
               </div>
@@ -314,25 +285,6 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-regular fa-star-half-stroke"></i>
                       </div>
-                    </div>
-
-                    <div class="hover-position">
-                      <button class="button-position">Sale 50%</button>
-                      <a href="#" class="heart">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1"
-                          stroke="currentColor"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                          />
-                        </svg>
-                      </a>
                       <a href="#" class="shopping-bags">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -349,30 +301,23 @@
                           />
                         </svg>
                       </a>
+                    </div>
+
+                    <div class="hover-position">
+                      <button class="button-position">Sale 50%</button>
+                      <a href="#" class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                      </a>
+                      <a href="#" class="shopping-bags">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </a>
                       <a href="#" class="eye">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1.5"
-                          stroke="currentColor"
-                          class="size-6"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"
-                          />
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                          />
-                        </svg>
+                        <i class="fa-regular fa-eye"></i>
                       </a>
                     </div>
                   </div>
                 </div>
+
                 <div class="product-info">
                   <div class="info">
                     <img src="./images/png/mango.png" alt="mango-image" />
@@ -389,25 +334,6 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-regular fa-star-half-stroke"></i>
                       </div>
-                    </div>
-
-                    <div class="hover-position">
-                      <button class="button-position">Sale 50%</button>
-                      <a href="#" class="heart">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1"
-                          stroke="currentColor"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                          />
-                        </svg>
-                      </a>
                       <a href="#" class="shopping-bags">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -424,30 +350,23 @@
                           />
                         </svg>
                       </a>
+                    </div>
+
+                    <div class="hover-position">
+                      <button class="button-position">Sale 50%</button>
+                      <a href="#" class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                      </a>
+                      <a href="#" class="shopping-bags">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </a>
                       <a href="#" class="eye">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1.5"
-                          stroke="currentColor"
-                          class="size-6"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"
-                          />
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                          />
-                        </svg>
+                        <i class="fa-regular fa-eye"></i>
                       </a>
                     </div>
                   </div>
                 </div>
+
                 <div class="product-info">
                   <div class="info">
                     <img
@@ -467,25 +386,6 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-regular fa-star-half-stroke"></i>
                       </div>
-                    </div>
-
-                    <div class="hover-position">
-                      <button class="button-position">Sale 50%</button>
-                      <a href="#" class="heart">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1"
-                          stroke="currentColor"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                          />
-                        </svg>
-                      </a>
                       <a href="#" class="shopping-bags">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -502,26 +402,18 @@
                           />
                         </svg>
                       </a>
+                    </div>
+
+                    <div class="hover-position">
+                      <button class="button-position">Sale 50%</button>
+                      <a href="#" class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                      </a>
+                      <a href="#" class="shopping-bags">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </a>
                       <a href="#" class="eye">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1.5"
-                          stroke="currentColor"
-                          class="size-6"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"
-                          />
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                          />
-                        </svg>
+                        <i class="fa-regular fa-eye"></i>
                       </a>
                     </div>
                   </div>
@@ -545,25 +437,6 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-regular fa-star-half-stroke"></i>
                       </div>
-                    </div>
-
-                    <div class="hover-position">
-                      <button class="button-position">Sale 50%</button>
-                      <a href="#" class="heart">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1"
-                          stroke="currentColor"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                          />
-                        </svg>
-                      </a>
                       <a href="#" class="shopping-bags">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -580,26 +453,18 @@
                           />
                         </svg>
                       </a>
+                    </div>
+
+                    <div class="hover-position">
+                      <button class="button-position">Sale 50%</button>
+                      <a href="#" class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                      </a>
+                      <a href="#" class="shopping-bags">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </a>
                       <a href="#" class="eye">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1.5"
-                          stroke="currentColor"
-                          class="size-6"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"
-                          />
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                          />
-                        </svg>
+                        <i class="fa-regular fa-eye"></i>
                       </a>
                     </div>
                   </div>
@@ -625,25 +490,6 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-regular fa-star-half-stroke"></i>
                       </div>
-                    </div>
-
-                    <div class="hover-position">
-                      <button class="button-position">Sale 50%</button>
-                      <a href="#" class="heart">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1"
-                          stroke="currentColor"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                          />
-                        </svg>
-                      </a>
                       <a href="#" class="shopping-bags">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -660,26 +506,18 @@
                           />
                         </svg>
                       </a>
+                    </div>
+
+                    <div class="hover-position">
+                      <button class="button-position">Sale 50%</button>
+                      <a href="#" class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                      </a>
+                      <a href="#" class="shopping-bags">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </a>
                       <a href="#" class="eye">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1.5"
-                          stroke="currentColor"
-                          class="size-6"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"
-                          />
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                          />
-                        </svg>
+                        <i class="fa-regular fa-eye"></i>
                       </a>
                     </div>
                   </div>
@@ -703,25 +541,6 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-regular fa-star-half-stroke"></i>
                       </div>
-                    </div>
-
-                    <div class="hover-position">
-                      <button class="button-position">Sale 50%</button>
-                      <a href="#" class="heart">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1"
-                          stroke="currentColor"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                          />
-                        </svg>
-                      </a>
                       <a href="#" class="shopping-bags">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -738,26 +557,18 @@
                           />
                         </svg>
                       </a>
+                    </div>
+
+                    <div class="hover-position">
+                      <button class="button-position">Sale 50%</button>
+                      <a href="#" class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                      </a>
+                      <a href="#" class="shopping-bags">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </a>
                       <a href="#" class="eye">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1.5"
-                          stroke="currentColor"
-                          class="size-6"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"
-                          />
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                          />
-                        </svg>
+                        <i class="fa-regular fa-eye"></i>
                       </a>
                     </div>
                   </div>
@@ -781,25 +592,6 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-regular fa-star-half-stroke"></i>
                       </div>
-                    </div>
-
-                    <div class="hover-position">
-                      <button class="button-position">Sale 50%</button>
-                      <a href="#" class="heart">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1"
-                          stroke="currentColor"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                          />
-                        </svg>
-                      </a>
                       <a href="#" class="shopping-bags">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -816,26 +608,18 @@
                           />
                         </svg>
                       </a>
+                    </div>
+
+                    <div class="hover-position">
+                      <button class="button-position">Sale 50%</button>
+                      <a href="#" class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                      </a>
+                      <a href="#" class="shopping-bags">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </a>
                       <a href="#" class="eye">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1.5"
-                          stroke="currentColor"
-                          class="size-6"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"
-                          />
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                          />
-                        </svg>
+                        <i class="fa-regular fa-eye"></i>
                       </a>
                     </div>
                   </div>
@@ -856,25 +640,6 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-regular fa-star-half-stroke"></i>
                       </div>
-                    </div>
-
-                    <div class="hover-position">
-                      <button class="button-position">Sale 50%</button>
-                      <a href="#" class="heart">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1"
-                          stroke="currentColor"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                          />
-                        </svg>
-                      </a>
                       <a href="#" class="shopping-bags">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -891,26 +656,18 @@
                           />
                         </svg>
                       </a>
+                    </div>
+
+                    <div class="hover-position">
+                      <button class="button-position">Sale 50%</button>
+                      <a href="#" class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                      </a>
+                      <a href="#" class="shopping-bags">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </a>
                       <a href="#" class="eye">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1.5"
-                          stroke="currentColor"
-                          class="size-6"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"
-                          />
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                          />
-                        </svg>
+                        <i class="fa-regular fa-eye"></i>
                       </a>
                     </div>
                   </div>
@@ -924,29 +681,29 @@
           <div class="container">
             <div class="bannars">
               <div class="bannar-info">
-                <h4>100% Fresh Cow Milk</h4>
+                <h4>100% Fresh <br />Cow Milk</h4>
                 <p>Starting at <span>$14.99</span></p>
-                <button class="btn-bannar">
-                  <strong>Shop Now</strong
-                  ><i class="fa-solid fa-arrow-right"></i>
+                <button class="btn-primary">
+                  Shop Now<i class="fa-solid fa-arrow-right"></i>
                 </button>
               </div>
               <div class="bannar-info second">
                 <p>Drink Sale</p>
-                <h4>Water & Soft Drink</h4>
+                <h4>
+                  Water & <br />
+                  Soft Drink
+                </h4>
 
-                <button class="btn-bannar">
-                  <strong>Shop Now</strong
-                  ><i class="fa-solid fa-arrow-right"></i>
+                <button class="btn-primary">
+                  Shop Now<i class="fa-solid fa-arrow-right"></i>
                 </button>
               </div>
               <div class="bannar-info three">
                 <p>100% Organic</p>
-                <h4>Quick Breakfast</h4>
+                <h4>Quick <br />Breakfast</h4>
 
-                <button class="btn-bannar">
-                  <strong>Shop Now</strong
-                  ><i class="fa-solid fa-arrow-right"></i>
+                <button class="btn-primary">
+                  Shop Now<i class="fa-solid fa-arrow-right"></i>
                 </button>
               </div>
             </div>
@@ -999,11 +756,11 @@
                 style="
                   font-family: Poppins;
                   font-weight: 600;
-                  font-size: 40px;
+                  font-size: 24px;
                   line-height: 120%;
                   letter-spacing: 0%;
                   text-align: center;
-                  margin-bottom: 50px;
+                  margin-bottom:40px;
                 "
               >
                 Featured Products
@@ -1025,25 +782,6 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-regular fa-star-half-stroke"></i>
                       </div>
-                    </div>
-
-                    <div class="hover-position">
-                      <button class="button-position">Sale 50%</button>
-                      <a href="#" class="heart">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1"
-                          stroke="currentColor"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                          />
-                        </svg>
-                      </a>
                       <a href="#" class="shopping-bags">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -1060,38 +798,29 @@
                           />
                         </svg>
                       </a>
+                    </div>
+                    <div class="hover-position">
+                      <button class="button-position">Sale 50%</button>
+                      <a href="#" class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                      </a>
+                      <a href="#" class="shopping-bags">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </a>
                       <a href="#" class="eye">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1.5"
-                          stroke="currentColor"
-                          class="size-6"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"
-                          />
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                          />
-                        </svg>
+                        <i class="fa-regular fa-eye"></i>
                       </a>
                     </div>
                   </div>
                 </div>
+
                 <div class="product-info">
                   <div class="info">
                     <img src="./images/png/apelsin.png" alt="mango-image" />
                     <div class="info-content">
                       <h3>Fresh Indian Malta</h3>
                       <div class="price">
-                        <strong>$14.99</strong>
-                        <del>$20.99</del>
+                        <strong>$20</strong>
                       </div>
                       <div class="stars">
                         <i class="fa-solid fa-star"></i>
@@ -1100,25 +829,6 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-regular fa-star-half-stroke"></i>
                       </div>
-                    </div>
-
-                    <div class="hover-position">
-                      <button class="button-position">Sale 50%</button>
-                      <a href="#" class="heart">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1"
-                          stroke="currentColor"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                          />
-                        </svg>
-                      </a>
                       <a href="#" class="shopping-bags">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -1135,26 +845,17 @@
                           />
                         </svg>
                       </a>
+                    </div>
+
+                    <div class="hover-position">
+                      <a href="#" class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                      </a>
+                      <a href="#" class="shopping-bags">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </a>
                       <a href="#" class="eye">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1.5"
-                          stroke="currentColor"
-                          class="size-6"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"
-                          />
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                          />
-                        </svg>
+                        <i class="fa-regular fa-eye"></i>
                       </a>
                     </div>
                   </div>
@@ -1168,8 +869,7 @@
                     <div class="info-content">
                       <h3>Chinese cabbage</h3>
                       <div class="price">
-                        <strong>$14.99</strong>
-                        <del>$20.99</del>
+                        <strong>$12</strong>
                       </div>
                       <div class="stars">
                         <i class="fa-solid fa-star"></i>
@@ -1178,25 +878,6 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-regular fa-star-half-stroke"></i>
                       </div>
-                    </div>
-
-                    <div class="hover-position">
-                      <button class="button-position">Sale 50%</button>
-                      <a href="#" class="heart">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1"
-                          stroke="currentColor"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                          />
-                        </svg>
-                      </a>
                       <a href="#" class="shopping-bags">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -1213,26 +894,17 @@
                           />
                         </svg>
                       </a>
+                    </div>
+
+                    <div class="hover-position">
+                      <a href="#" class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                      </a>
+                      <a href="#" class="shopping-bags">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </a>
                       <a href="#" class="eye">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1.5"
-                          stroke="currentColor"
-                          class="size-6"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"
-                          />
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                          />
-                        </svg>
+                        <i class="fa-regular fa-eye"></i>
                       </a>
                     </div>
                   </div>
@@ -1241,10 +913,9 @@
                   <div class="info">
                     <img src="./images/png/letture.png" alt="tomatoes-image" />
                     <div class="info-content">
-                      <h3>Fresh Cauliflower</h3>
+                      <h3>Green Lettuce</h3>
                       <div class="price">
-                        <strong>$14.99</strong>
-                        <del>$20.99</del>
+                        <strong>$9</strong>
                       </div>
                       <div class="stars">
                         <i class="fa-solid fa-star"></i>
@@ -1253,25 +924,6 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-regular fa-star-half-stroke"></i>
                       </div>
-                    </div>
-
-                    <div class="hover-position">
-                      <button class="button-position">Sale 50%</button>
-                      <a href="#" class="heart">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1"
-                          stroke="currentColor"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                          />
-                        </svg>
-                      </a>
                       <a href="#" class="shopping-bags">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -1288,26 +940,17 @@
                           />
                         </svg>
                       </a>
+                    </div>
+
+                    <div class="hover-position">
+                      <a href="#" class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                      </a>
+                      <a href="#" class="shopping-bags">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </a>
                       <a href="#" class="eye">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1.5"
-                          stroke="currentColor"
-                          class="size-6"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"
-                          />
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                          />
-                        </svg>
+                        <i class="fa-regular fa-eye"></i>
                       </a>
                     </div>
                   </div>
@@ -1319,10 +962,9 @@
                       alt="tomatoes-image"
                     />
                     <div class="info-content">
-                      <h3>Fresh Cauliflower</h3>
+                      <h3>Eggplant</h3>
                       <div class="price">
-                        <strong>$14.99</strong>
-                        <del>$20.99</del>
+                        <strong>$34</strong>
                       </div>
                       <div class="stars">
                         <i class="fa-solid fa-star"></i>
@@ -1331,25 +973,6 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-regular fa-star-half-stroke"></i>
                       </div>
-                    </div>
-
-                    <div class="hover-position">
-                      <button class="button-position">Sale 50%</button>
-                      <a href="#" class="heart">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1"
-                          stroke="currentColor"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                          />
-                        </svg>
-                      </a>
                       <a href="#" class="shopping-bags">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -1366,26 +989,17 @@
                           />
                         </svg>
                       </a>
+                    </div>
+
+                    <div class="hover-position">
+                      <a href="#" class="heart">
+                        <i class="fa-regular fa-heart"></i>
+                      </a>
+                      <a href="#" class="shopping-bags">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </a>
                       <a href="#" class="eye">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1.5"
-                          stroke="currentColor"
-                          class="size-6"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"
-                          />
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                          />
-                        </svg>
+                        <i class="fa-regular fa-eye"></i>
                       </a>
                     </div>
                   </div>
@@ -1421,7 +1035,7 @@
                     <img src="./images/svg/branding.svg" alt="" />
                     <p>
                       “Proin sed neque nec tellus malesuada ultrices eget a
-                      justo. Nullam a nibh faucibus, semper risus ac, ultricies
+                     us ac, ultricies
                       est. Maecenas eget purus in enim imperdiet dapibus in ac
                       mi. Fusce faucibus lacus felis”
                     </p>

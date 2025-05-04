@@ -1,12 +1,10 @@
 .slider {
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 .slider-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 68px;
-  padding-bottom: 68px;
   gap: 40px;
 }
 
@@ -22,41 +20,43 @@
 }
 .slider-content h1 {
   font-weight: 600;
-  font-size: 56px;
+  font-size: 36px;
   line-height: 120%;
   color: #002603;
-  margin-top: 8px;
-  margin-bottom: 20px;
+  margin-top: 4px;
+  margin-bottom: 10px;
 }
 .slider-content p {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 150%;
+  font-size: 12px;
+  line-height: 120%;
   color: #618062;
 }
-.slider-content button {
-  margin-top: 32px;
+.btn-primary {
+  margin-top: 20px;
   background: #00b207;
-  padding: 16px 40px;
+  padding: 12px 26px;
   color: #ffffff;
   border-radius: 43px;
   font-family: "Poppins";
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 10px;
   border: 1px solid #00b207;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
-.slider-content del {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 120%;
-}
-.slider-content button:hover {
+.btn-primary:hover {
   color: #00b207;
   background: #fff;
 }
+.slider-content del {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 120%;
+}
+
 .slider-image {
   position: relative;
 }

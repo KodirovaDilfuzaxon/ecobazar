@@ -1,16 +1,11 @@
 .features {
-  margin-top: 10px;
-  background: #fff;
-  width: 100%;
+  z-index: 9998;
 }
 .features-info {
+  /* margin-bottom:-100px; */
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 16px 48px 0px #0e6b1514;
-  border: 1px solid #e6e6e6;
-  background: #fff;
- 
 }
 .feature-item {
   display: flex;
@@ -20,7 +15,8 @@
   border: 1px solid #dae5da;
   transition: all 0.3s ease;
   cursor: pointer;
-  width: 100%;
+  background: #fff;
+  box-shadow: 0px 16px 48px 0px #0e6b1514;
 }
 .feature-item:hover {
   box-shadow: 0px 0px 12px 0px #20b52652;
@@ -29,31 +25,31 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 122px 40px 40px;
+  padding: 16px 80px 16px 16px;
 }
 .feature-item.second-element {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 122px 40px 122px;
+  padding: 16px 80px 16px 80px;
 }
 .feature-item.third-element {
   display: flex;
   justify-content: end;
   align-items: start;
-  padding: 40px 40px 40px 122px;
+  padding: 16px 16px 16px 80px;
 }
 .feature-item h3 {
   color: #1a1a1a;
-  margin-top: 16px;
-  margin-bottom: 8px;
+  margin-top: 10px;
+  margin-bottom: 4px;
   font-weight: 600;
   font-size: 18px;
-  line-height: 150%;
+  line-height: 120%;
 }
 .feature-item p {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 150%;
+  font-size: 10px;
+  line-height: 120%;
   color: #999999;
 }

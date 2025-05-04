@@ -2,7 +2,6 @@
   padding-top: 100px;
   margin-bottom: -250px;
   z-index: 999;
-  width: 100%;
 }
 .latest-news-card-and-content {
   display: flex;
@@ -12,7 +11,7 @@
 }
 .latest-news-card-and-content h3 {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 24px;
   line-height: 120%;
   text-align: center;
   color: #002603;
@@ -29,14 +28,14 @@
   background-image: url(../images/png/fermers.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  border-radius: 16px;
 }
 .farm-content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 257px 412px;
+  padding: 230px 390px;
 }
 .farm-content p {
   font-family: Segoe Script;
@@ -44,18 +43,18 @@
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 2%;
-  text-align: center;
+  text-align: start;
   text-transform: uppercase;
   color: #fff;
 }
 .farm-content h3 {
   font-weight: 600;
-  font-size: 36px;
+  font-size: 24px;
   line-height: 120%;
-  text-align: center;
   color: #ffffff;
   margin-top: 12px;
   margin-bottom: 32px;
+  align-items: center;
 }
 .blog-card {
   position: relative;
@@ -64,38 +63,39 @@
   align-items: center;
   flex-direction: column;
   text-align: start;
-  padding: 24px 24px;
+  padding: 12px 12px;
   box-shadow: 0px 10px 80px 0px #0000001a;
   background: #ffffff;
 }
 
 .blog-card img {
+  width: 300px;
   border-radius: 4px;
 }
 .blog-card h3 {
   margin-top: 24px;
   margin-bottom: 8px;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 150%;
   color: #002e03;
 }
 .blog-card p {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 10px;
   line-height: 150%;
   color: #618062;
 }
 .blog-card a {
-  margin-top: 20px;
+  margin-top: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 14px;
+  gap: 10px;
 }
 .blog-card a span {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 10px;
   line-height: 120%;
   color: #00b207;
 }
@@ -104,18 +104,18 @@
 }
 .data {
   position: absolute;
-  left: 10%;
+  left: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background: #ffffff;
   border-radius: 4px;
-  padding: 6px 17px;
+  padding: 3px 12px;
 }
 .data p {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 150%;
   color: #1a1a1a;
   text-align: center;
@@ -132,13 +132,11 @@
 }
 hr {
   border: 1px solid #b4ccb4;
-  width: 100%;
   opacity: 0.7;
 }
 .subcribe-our-newsletter {
-  padding-top: 518px;
+  padding-top: 500px;
   background: #edf2ee;
-  width: 100%;
 }
 .subcribe {
   display: flex;
@@ -155,14 +153,14 @@ hr {
 }
 .subc h5 {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 150%;
   color: #002e03;
 }
 
 .subc p {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 150%;
   color: #7a997c;
 }
@@ -175,7 +173,7 @@ hr {
   border-radius: 46px;
 }
 .input-btns input {
-  padding: 14px 67px 14px 24px;
+  padding: 12px 52px 12px 20px;
   border-radius: 47px;
   border: none;
   outline: none;
@@ -188,7 +186,7 @@ hr {
   padding: 16px 40px;
   font-family: Poppins;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 20px;
   border: 1px solid #00b207;
   color: #fff;

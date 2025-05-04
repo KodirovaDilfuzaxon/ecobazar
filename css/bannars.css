@@ -1,0 +1,68 @@
+.bannar {
+  padding: 80px;
+}
+.bannars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+  width: 100%;
+}
+.bannar-info {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px 180px 30px 30px;
+  border-radius: 8px;
+  background-image: url(../images/png/cow-milk.png);
+  object-fit: fill;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.bannar-info h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: justify;
+}
+.bannar-info p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: justify;
+}
+.bannar-info p span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.second {
+  padding: 30px 30px 30px 180px;
+  background-image: url(../images/png/water-soft-drink.png);
+  background-size: cover;
+  object-fit: fill;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.second p,
+.second h4,
+.three p,
+.three h4 {
+  color: #002603;
+}
+
+.three {
+  padding: 30px 180px 30px 30px;
+  background-image: url(../images/png/brackfast.png);
+  object-fit: fill;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

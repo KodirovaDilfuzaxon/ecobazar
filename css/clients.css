@@ -1,16 +1,22 @@
 .our-clients {
   padding-top: 100px;
-  padding-bottom: 460px;
+  padding-bottom: 440px;
   background: #edf2ee;
   width: 100%;
 }
+.clients {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
 .client {
-  margin-top: 43px;
+  margin-top: 30px;
 }
 .clients h3 {
   color: #002603;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 20px;
   line-height: 120%;
   text-align: center;
 }
@@ -19,12 +25,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 32px 32px 44px 32px;
-  gap: 24px;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  gap: 20px;
   background: #fff;
 }
 .client-comment p {
-  max-width: 360px;
+ 
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -39,15 +46,16 @@
   margin-top: 16px;
 }
 .client-info h3 {
+  margin-top: 10px;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 150%;
   color: #002603;
   text-align: center;
 }
 .client-info p {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 150%;
   text-align: center;
   color: #618062;
