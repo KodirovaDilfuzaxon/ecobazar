@@ -4,10 +4,10 @@
   z-index: 999;
 }
 .latest-news-card-and-content {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; */
 }
 .latest-news-card-and-content h3 {
   font-weight: 600;
@@ -19,9 +19,9 @@
 }
 .latest-news-cards {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 24px;
+  gap: 14px;
 }
 .farm {
   margin-top: -370px;
@@ -35,7 +35,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 230px 390px;
+  padding: 200px 290px;
 }
 .farm-content p {
   font-family: Segoe Script;
@@ -62,27 +62,28 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-align: start;
-  padding: 12px 12px;
+  text-align: center;
+  padding: 6px 6px;
   box-shadow: 0px 10px 80px 0px #0000001a;
   background: #ffffff;
 }
 
 .blog-card img {
-  width: 300px;
+  width: 320px;
   border-radius: 4px;
+  object-fit: contain;
 }
 .blog-card h3 {
-  margin-top: 24px;
+  margin-top: 14px;
   margin-bottom: 8px;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 150%;
   color: #002e03;
 }
 .blog-card p {
   font-weight: 400;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 150%;
   color: #618062;
 }
@@ -111,7 +112,7 @@
   flex-direction: column;
   background: #ffffff;
   border-radius: 4px;
-  padding: 3px 12px;
+  padding: 6px 12px;
 }
 .data p {
   font-weight: 500;
